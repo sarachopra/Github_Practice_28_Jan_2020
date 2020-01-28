@@ -5,10 +5,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-		features="Feature"
-		,glue= {"step_definition"}
-		)
+@CucumberOptions(plugin = {"json:target/cucumber.json"})
+// 		features="Feature"
+// 		,glue= {"step_definition"}
+// 		)
 
 public class Testrunner
 {
