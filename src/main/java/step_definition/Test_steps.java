@@ -17,7 +17,7 @@ public class Test_steps {
 	@When("User Navigate to LogIn Page")
 	public void user_Navigate_to_LogIn_Page() 
 	{
-	   System.out.println("User Navigate to LogIn Page");
+	   System.out.println("Please User Navigate to LogIn Page");
 	}
 
 	@When("User enters userName and Password")
